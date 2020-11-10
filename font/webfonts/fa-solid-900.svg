@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20190801 at Wed Jul 15 16:59:40 2020
+ By Unknown
+Copyright (c) Font Awesome
+</metadata>
+<defs>
+<font id="FontAwesome5Free-Solid" horiz-adv-x="448" >
+  <font-face 
+    font-family="Font Awesome 5 Free Solid"
+    font-weight="900"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -64 512 448"
+    underline-thickness="25"
+    underline-position="-49"
+    unicode-range="U+F0C9-F879"
+  />
+<missing-glyph 
+d="M16 316q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416zM16 156q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416zM16 -4
+q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416z" />
+    <glyph glyph-name=".notdef" unicode="&#xf0c9;" 
+d="M16 316q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416zM16 156q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416zM16 -4
+q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416z" />
+    <glyph glyph-name="map-marker-alt" unicode="&#xf3c5;" horiz-adv-x="384" 
+d="M172 -54q-24 35 -54.5 79t-43.5 62t-30 44.5t-22.5 37.5t-12 28t-8 29.5t-1.5 29.5q0 80 56 136t136 56t136 -56t56 -136q0 -17 -1.5 -29.5t-8 -29.5t-12 -28t-22.5 -37.5t-30 -44.5t-43.5 -62t-54.5 -79q-7 -10 -20 -10t-20 10zM192 176q33 0 56.5 23.5t23.5 56.5
+t-23.5 56.5t-56.5 23.5t-56.5 -23.5t-23.5 -56.5t23.5 -56.5t56.5 -23.5z" />
+    <glyph glyph-name="phone-alt" unicode="&#xf879;" horiz-adv-x="512" 
+d="M497 86q15 -6 15 -22q0 -3 -1 -5l-24 -104q-4 -19 -23 -19q-192 0 -328 136t-136 328q0 19 19 23l104 24q2 1 5 1q16 0 22 -15l48 -112q2 -4 2 -9q0 -11 -9 -19l-60 -49q56 -121 177 -177l49 60q8 9 19 9q5 0 9 -2z" />
+  </font>
+</defs></svg>

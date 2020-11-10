@@ -1,0 +1,764 @@
+*{
+	font-family: Helvetica;
+}
+
+/*navbar start*/
+nav ul li a{
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(81, 111, 143);
+	font-size: 16px;
+	font-weight: 700;
+}
+nav ul li a:hover{
+	color: blue;
+}
+nav div .mybtn1{
+	background-color: #FF5445;
+	color: white;
+}
+nav div:hover .mybtn1{
+	background-color: rgb(255, 25, 25);
+	color: white;
+}
+/*navbar end*/
+
+
+
+/*banner start*/
+.banner{
+	background-image: linear-gradient(rgba(249,246,248,1), rgba(249,246,248,1));
+	padding-top: 50px;
+}
+
+.banner .carousel-indicators li{
+	width: 75px !important;
+	background-color: rgb(204, 204, 204) !important;
+	transition: all .3s ease-in-out;
+}
+.banner .image{
+	background-image: url(../img/banner-separator.png);
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.banner .image h1{
+	font-weight: bold;
+	color: #4F4B6C;
+	font-size: 45px;
+}
+.banner .image p{
+	font-size: 18px;
+}
+.banner .image .mybtn2{
+	background-image: linear-gradient(to right, rgba(255,84,69,1), rgba(255,84,69,.6));
+	color: white;
+	padding: 10px 35px;
+	border-radius: 25px;
+}
+.banner .image .mybtn2:hover{
+	background-image: linear-gradient(to right, rgba(89,75,108,1), rgba(89,75,108,.6));
+}
+/*banner end*/
+
+
+
+
+/*popular-hosting*/
+.popular-hosting{
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-color: rgb(222, 236, 241);
+}
+.popular-hosting small{
+	color: white;
+	background-color: #4f4b6c;
+	font-weight: bold;
+	padding: 5px 25px;
+	border-radius: 25px;
+}
+.popular-hosting .fsize{
+	font-size: 25px;
+}
+.popular-hosting h2{
+	color: #4f4b6c;
+	font-weight: bold;
+	font-size:36px;
+}
+.popular-hosting h2:hover a{
+	transition: all .1s linear;
+	opacity: .89;
+}
+.popular-hosting p{
+	font-size: 16px;
+	color: #516f8f;
+}
+.popular-hosting .card{
+	border-radius: 14px;
+	transition: all 10s ease-in;
+}
+.popular-hosting .card:hover strong{
+	color: rgb(253, 84, 129);
+}
+.popular-hosting .card:hover .plans_btn{
+	background-color: rgb(253, 84, 129);
+}
+.popular-hosting .card:hover .mybtn2{
+	background-color: white;
+	color: #4f4b6c;
+}
+.popular-hosting .card .bb{
+	height: 3px;
+	width: 140px;
+	border-bottom: 3px solid red;
+	margin-bottom: 10px;
+}
+.popular-hosting .card ul li{
+	line-height: 40px;
+	font-size: 14px;
+  	border-bottom: 1px solid silver;
+}
+.popular-hosting .card .plans_btn{
+    display: block;
+    background-color: #4f4b6c;
+    border-radius: 25% 65% 14px 14px;
+    transition: .5s ease-in-out;
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+    padding-bottom: 4rem;
+}
+.popular-hosting .card .plans_btn a{
+    color: white;
+    text-decoration: none;
+}
+.popular-hosting .card .plans_btn .mybtn2{
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+}
+/*popular-hosting*/
+
+
+/*easy-hosting*/
+.easy-hosting{
+	background-color: #B588E2;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.easy-hosting h2{
+	color: white;
+	font-weight: bold;
+}
+.easy-hosting .card {
+	border-radius: 25px;
+}
+.easy-hosting .card h3{
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(79, 75, 108);
+}
+.easy-hosting .card p{
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(81, 111, 143);
+}
+
+.easy-hosting .card:hover h3{
+	color: rgb(121, 107, 248);
+	transition: all .3s ease-in;
+}
+/*easy-hosting*/
+
+
+
+/*data-center*/
+.data-center{
+	background-color: rgb(222, 236, 241);
+	padding-top: 80px;
+	position: relative;
+}
+.data-center h2{
+	font-weight: bold;
+	color: rgb(79, 75, 108);
+}
+.data-center p{
+	color: rgb(81, 111, 143);
+	font-size: 18px;
+}
+.data-center .data-center-child{
+	background-color: #D2E4EA;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/*data-center*/
+
+
+
+/*before-footer*/
+.before-footer{
+	background-color: #edf5f8;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.before-footer .bfnav1 li i{
+	color: #FE6484;
+}
+.before-footer ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: rgb(81, 111, 143);
+}
+.before-footer h5{
+	font-weight: bold;
+	color: rgb(79, 75, 108);
+	text-transform: uppercase;
+}
+.before-footer ul li a:hover{
+	color: #FE6484;
+	transition: all .2s linear;
+}
+.before-footer p, .bfnav3{
+	font-size: 14px;
+	color: rgb(81, 111, 143);
+}
+/*before-footer*/
+
+
+
+/*footer*/
+.footer{
+	background-color: #E0EDF1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer{
+	font-size: 14px;
+	color: rgb(81, 111, 143);
+}
+.footer p a{
+	text-decoration: none;
+	color: rgb(81, 111, 143); 
+}
+.footer p a:hover{
+	color: #FE6484;
+	transition: all .2s linear; 
+}
+/*footer*/
+
+
+
+/*Domain-page start*/
+/*Domain-page start*/
+/*Domain-page start*/
+/*Domain-page start*/
+
+
+/*domain-page*/
+.domain-banner{
+	background-image: url(../img/banner-separator.png);
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.domain-banner h2{
+	color: rgb(79, 75, 108);
+	font-weight: bold;
+	font-size: 50px;
+}
+.domain-banner p{
+	color: rgb(81, 111, 143);
+	font-size: 20px;
+	font-weight: bold;
+}
+.domain-banner .mybtn2{
+	background-image: linear-gradient(to right, rgba(255,84,69,1), rgba(255,84,69,.6));
+	color: white;
+	padding: 10px 35px;
+	border-radius: 25px;
+}
+.domain-banner .mybtn2:hover{
+	background-image: linear-gradient(to right, rgba(89,75,108,1), rgba(89,75,108,.6));
+}
+/*domain-banner*/
+
+/*available-tlds*/
+.available-tlds{
+	/*background-image: url(../img/banner-separator.png);*/
+	padding-top: 99px;
+	padding-bottom: 99px;
+	/*background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; */
+	background-color: rgb(237, 245, 248);	
+}
+.available-tlds h2{
+	color: rgb(79, 75, 108);
+	font-size: 36px;
+	font-weight: 700;
+}
+.available-tlds p{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(81, 111, 143);
+}
+.available-tlds table{
+	border: 1px solid silver;
+	background-color: rgb(237, 245, 248);
+}
+.available-tlds table th{
+	background-color: rgb(79, 75, 108);
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.available-tlds table  .t1{
+	font-size: 14px;
+	background-color: #FE6084;
+	padding: 5px;
+	font-weight: 500;
+}
+.available-tlds table  tr td{
+	font-size: 14px;
+	padding: 20px;
+	font-weight: 500;
+}
+.available-tlds table tbody tr{
+	border: 1px solid silver;
+}
+.available-tlds table tbody tr:hover{
+	background-color: white;
+	color: rgb(253, 84, 129);
+	transition: all .1s linear;
+}
+/*available-tlds*/
+
+/*partner*/
+.partner{
+	background-color: rgb(81, 111, 143);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top:1px solid silver;
+	border-bottom: 1px solid silver;
+}
+/*partner*/
+
+
+
+
+/*Domain-page end*/
+/*Domain-page end*/
+/*Domain-page end*/
+/*Domain-page end*/
+
+
+
+
+
+
+
+
+
+/*shared-hosting-page-start*/
+/*shared-hosting-page-start*/
+/*shared-hosting-page-start*/
+
+
+/*shared hosting banner*/
+.s-hosting-banner{
+	background-image: url(../img/banner-separator.png);
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.s-hosting-banner h2{
+	color: rgb(79, 75, 108);
+	font-weight: bold;
+	font-size: 50px;
+}
+.s-hosting-banner p{
+	color: rgb(81, 111, 143);
+	font-size: 20px;
+	font-weight: bold;
+}
+/*shared hosting banner*/
+
+
+/*hosting features*/
+.hosting-features{
+	background-image: url(../img/hosting-feature.jpg);
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.hosting-features h2{
+	color: white;
+	font-weight: bold;
+}
+.hosting-features h2{
+	color: white;
+	font-weight: bold;
+}
+.hosting-features .image-icon{
+	background-color: white;
+	border-radius: 25px;
+	padding: 35px 0px;
+}
+.hosting-features h3{
+	color: #4f4b6c;
+	font-weight: bold;
+	font-size: 20px;
+}
+.hosting-features .image-icon:hover h3{
+	color: rgb(253, 84, 129);
+	transition: all .3s ease;
+}
+/*hosting features*/
+
+
+/*tecnical-specifications*/
+.tecnical-specifications{
+	background-color: rgb(237, 245, 248);
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.tecnical-specifications h2{
+	font-weight: bold;
+	color: #4f4b6c;
+	font-size: 36px;
+}
+.tecnical-specifications h4{
+	color: rgb(253, 84, 129);
+	font-size: 18px;
+	font-weight: bold;
+}
+.tecnical-specifications ul li{
+	color: rgb(81, 111, 143);
+	font-size: 14px;
+}
+.tecnical-specifications ul{
+ 	list-style-type: none;
+}
+.tecnical-specifications ul li::before {
+	content: "\2022";
+	color: rgb(253, 84, 129);
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+}
+/*tecnical-specifications*/
+
+
+/*web-hosting*/
+.web-hosting{
+	padding-top: 50px;
+	padding-bottom: 99px;
+	background-color: rgb(222, 236, 241);
+}
+.web-hosting h2{
+	color: rgb(79, 75, 108);
+	font-size: 36px;
+	font-weight: 700px;
+}
+.web-hosting p{
+	color: rgb(81, 111, 143);
+	font-size: 16px;
+}
+.web-hosting .mybtn3{
+	background-image: linear-gradient(to right, rgba(255,84,69,1), rgba(255,84,69,.6));
+	padding: 10px 35px;
+	border-radius: 25px;
+	color: white;
+	font-weight: bold;
+}
+.web-hosting .mybtn3:hover{
+	background-image: linear-gradient(to right, rgba(89,75,108,1), rgba(89,75,108,.6));
+}
+/*web-hosting*/
+
+
+    
+/*shared-hosting-page-end*/
+/*shared-hosting-page-end*/
+/*shared-hosting-page-end*/
+
+
+
+
+
+
+
+
+
+
+/*contact-us-page-start*/
+/*contact-us-page-start*/
+/*contact-us-page-start*/
+
+
+
+
+/*contact-us-form*/
+.contact-us-form{
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-color: rgb(222, 236, 241);
+}
+.contact-us-form .form-group input{
+	padding: 30px;
+	border-radius: 10px;
+}
+.contact-us-form textarea{
+	border-radius: 10px;
+	padding: 30px;
+}
+.contact-us-form a{
+	padding: 15px;
+}
+.contact-us-form .contact-img-bg{
+	background-color: white;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+.contact-us-form .contact-img-bg h5{
+	color: rgb(79, 75, 108);
+}
+.contact-us-form .contact-img-bg p{
+	color: rgb(81, 111, 143);
+	font-size: 14px;
+}
+/*contact-us-form*/
+
+
+
+
+
+
+/*contact-us-page-end*/
+/*contact-us-page-end*/
+/*contact-us-page-end*/
+
+
+
+
+
+/*terms&condition-page-start*/
+/*terms&condition-page-start*/
+/*terms&condition-page-start*/
+
+
+
+/*.terms-conditions*/
+.terms-conditions{
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-color: rgb(222, 236, 241);
+}
+.terms-conditions h3{
+	font-size: 36px;
+	color: rgb(79, 75, 108);
+}
+.terms-conditions ol li{
+	font-weight: bold;
+	color: black;
+}
+.terms-conditions ol li > p {
+    font-weight:normal;
+    color: rgb(81, 111, 143);
+}
+/*.terms-conditions*/
+
+
+
+/*terms&condition-page-end*/
+/*terms&condition-page-end*/
+/*terms&condition-page-end*/
+
+
+
+/*dedicated-hosting-page-strat*/
+/*dedicated-hosting-page-strat*/
+/*dedicated-hosting-page-strat*/
+
+        /*dedicated hosting banner*/
+        .dedicated-hosting-banner{
+            background-image: url(../img/banner-separator.png);
+            padding-top: 99px;
+            padding-bottom: 99px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .dedicated-hosting-banner h2{
+            color: rgb(79, 75, 108);
+            font-weight: bold;
+            font-size: 50px;
+        }
+        .dedicated-hosting-banner p{
+            color: rgb(81, 111, 143);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        /*dedicated hosting banner*/
+
+
+
+
+        /*popular-hosting*/
+        .dedicated-hosting{
+            padding-top: 99px;
+            padding-bottom: 99px;
+            background-color: rgb(222, 236, 241);
+        }
+        .dedicated-hosting table{
+            border: 1px solid gray;
+        }
+        .dedicated-hosting table tr th{
+            background-color: rgb(121, 107, 249);
+            color: white;
+            padding: 25px;
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+        .dedicated-hosting table tr td{
+            transition: all .4s linear;
+            padding: 30px;
+            font-size: 14px;
+        }
+        .dedicated-hosting table tr td a{
+            background-color: #4F4B6C;
+            /*padding: 0px 5px;*/
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+        .dedicated-hosting table tr:hover a{
+            background-color: #FE6584;
+        }
+        .dedicated-hosting table tr:hover{
+            background-color: #4F4B6C;
+            color: white;
+        }
+        /*popular-hosting*/
+
+
+
+        /*available-add*/
+        .available-add{
+            padding-top: 99px;
+            padding-bottom: 99px;
+            background-color: rgb(237, 245, 248);
+        }
+        .available-add ul li{
+            color: rgb(79, 75, 108);
+            font-weight: 600;
+            width: 100%;
+            float: left;
+            background: #eff6f8;
+            border: 1px solid #a0b2c3;
+            padding: 5px 10px;
+            margin: 0 0 20px;
+            border-radius: 8px;
+            height: 72px;
+            transition: .5s ease-in-out;
+            box-shadow: 10px 0 20px rgba(0,0,0,.1);
+        }
+        .available-add ul li span{
+            padding: 20px;
+            background-color: #FD5481;
+            border-radius: 50%;
+        }
+        /*available-add*/
+
+
+/*dedicated-hosting-page-end*/
+
+
+
+
+
+
+/*reseller-page-start*/
+
+/*start-with-domain*/
+.start-with-domain{
+	background-image: url(../img/banner-separator.png);
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.start-with-domain h2{
+	font-weight: bold;
+	color: rgb(79, 75, 108);
+}
+/*start-with-domain*/
+
+/*reseller-page-end*/
+
+
+/*Operating Systems start*/
+.operating-systems{
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-color: #EDF5F8;
+}
+/*Operating Systems end*/
+
+
+/*after-banner start*/
+.after-banner{
+    padding-top: 99px;
+    padding-bottom: 99px;
+    background-color: #DEECF1;
+}
+/*after-banner end*/
+
+
+
+/*privacy-page-start*/
+
+/*main-section*/
+.privacy1{
+	background-color: #F5F5F5;
+}
+.main-section{
+	background-color: #FFFFFF;
+	padding: 15px 35px;
+}
+.main-section .bb{
+	height: 3px;
+	width: 140px;
+	border-bottom: 3px solid #FCB100;
+	margin-bottom: 10px;
+}
+.main-section ul li a{
+	font-size: 14px;
+}
+/*main-section*/
+
+/*privacy-page-start*/
+
+
+
+
+@media screen and (max-width: 992px){
+	.mybtn1{
+		margin-top: 1rem;
+	}
+}
